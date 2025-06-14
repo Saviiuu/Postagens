@@ -9,10 +9,10 @@
             VerticalOptions = "Center"
             HorizontalOptions="Center"/>
         <Entry
-            Text="Titulo"
+            Text="{Binding Corpo}"
             HeightRequest="80"/>
         <Button
             Text="Enviar"
-            Command="{Binding EnviarCommand}"/>
+            Command="{Binding displayPostsCommand}"/>
     </VerticalStackLayout>
 </ContentPage>
